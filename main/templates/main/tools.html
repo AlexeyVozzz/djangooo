@@ -1,0 +1,38 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Оборудование{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Системные требования</h1>
+        <br>
+        <hr>
+        <p></p>
+        <style>
+            table {
+                width: 80%;
+                margin-top: 50px;
+                border:1px solid white;
+                padding:0.2em 0.4em 0.2em 0.4em;
+                color: white; /* Цвет текста */
+                border-spacing: 3px; /* Расстояние между ячейками */
+                margin-left: 30px;
+            }
+            td, th {
+                padding: 5px; /* Поля вокруг текста */
+                border: 1px solid white;
+            }
+        </style>
+        <table>
+           <tr><th> </th><th>МИНИМАЛЬНЫЕ:</th><th>РЕКОМЕНДОВАННЫЕ:</th></tr>
+           <tr><td>ОС:</td><td>Windows 10 64Bit</td><td>Windows 10 64Bit</td></tr>
+            <tr><td>Процессор:</td><td>Intel Core i5-4590 / AMD Ryzen 5 2600</td><td>Intel Core i5-10600 / AMD Ryzen 5 3600</td></tr>
+            <tr><td>Оперативная память:</td><td>8 GB ОЗУ</td><td>8 GB ОЗУ</td></tr>
+            <tr><td>Видеокарта:</td><td>NVIDIA GTX 970 / AMD Radeon R9 390</td><td> NVIDIA RTX 2060 / AMD Radeon RX 5700</td></tr>
+            <tr><td>Место на диске:</td><td>21 GB</td><td>21 GB</td></tr>
+        </table>
+    </div>>
+{% endblock %}
+
+
+

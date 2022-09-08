@@ -1,0 +1,73 @@
+body {
+    background : url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+body .name {
+    font-size: 27px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+.sticky {
+    position: fixed;
+
+    z-index: 10;
+}
+
+aside img{
+    width: 80px;
+    flout: left;
+}
+
+aside .logo {
+    font-size: 27px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #6333ff
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {maw-width: 400px; margin: 20px auto;}
